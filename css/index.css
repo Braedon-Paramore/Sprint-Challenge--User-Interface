@@ -86,9 +86,14 @@ header nav a {
 }
 
 .logo {
-    margin-left: 45px;
-    
-  }
+    padding-bottom: 12px;
+}
+
+.mainimg {
+    width: 100%;  
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 
 .top-content {
     display: flex;
@@ -103,6 +108,8 @@ header nav a {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/* Middle Content */
 
 .middle-content {
     margin-bottom: 20px;

@@ -89,6 +89,16 @@ p {
     padding-bottom: 20px;  
 }
 
+.mainimg {
+    width: 100%;  
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* Middle Content */
+
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
