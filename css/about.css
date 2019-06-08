@@ -75,6 +75,29 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 35px;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.logo {
+    padding-bottom: 12px;
+}
+
+.aboutmainimg {
+    width: 100%;  
+    padding-top: 25px;
+    padding-bottom: 25px;    
+}
+    
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -89,11 +112,6 @@ p {
     padding-bottom: 20px;  
 }
 
-.mainimg {
-    width: 100%;  
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
 
 
 /* Middle Content */
