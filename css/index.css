@@ -112,7 +112,7 @@ header nav a {
 /* Middle Content */
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px dashed black;
 }
 
@@ -121,64 +121,100 @@ header nav a {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
- .box1 {
-    color: teal;
+.box1 {
+    
+    background-color: teal;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
 .box2 {
-    color: gold;
+    background-color: gold;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
 .box3 {
-    color: cadetblue;
+    background-color: cadetblue;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
 .box4 {
-    color: coral;
+    background-color: coral;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
-.box5 {
-    color: crimson
+.box5{
+    background-color: crimson;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
 .box6 {
-    color: forestgreen;
+    background-color: forestgreen;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
 .box7 {
-    color: darkorchid;
+    background-color: darkorchid;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
 .box8 {
-    color: hotpink;
+    background-color: hotpink;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
 .box9 {
-    color: indigo;
+    background-color: indigo;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
 
 .box10 {
-    color: dodgerblue;
+    background-color: dodgerblue;
+    width: 105px;
+    height: 105px;
+    padding: 40px;
+    margin: 25px;
 }
- 
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
+.middle-content .boxes {
     color: white;
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+    white-space: nowrap;
+    text-align: center;
 }
 
+/* Bottom Content */
+ 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
